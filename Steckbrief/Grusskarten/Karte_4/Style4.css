@@ -1,0 +1,54 @@
+header {
+    background: url("images_4/wrapperbg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    position: fixed;
+    margin-top: 300px;
+    height: 400px; 
+    width: 800px; 
+    }
+
+body {
+    background-image: url("images_4/bg.png");
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    margin: auto;
+}
+
+.title{
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        font-size: x-large;
+        text-align: left;
+        margin:auto;
+        position: absolute;
+        top: 15%;
+        left: 42%;
+        transform: translate(-50%, -50%);
+        color: whitesmoke;
+    }
+    .stern {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .stern_bright {
+        display: inline;
+        position: relative;
+        padding-right: 25px;
+    }
+    .stern_bright:hover img[alt="star"] {
+        opacity: 0%;
+    }
+    .stern_bright img[alt="star"] .single_shell img[alt="star"] {
+        transition-duration: 0.3s;
+    }
+    .stern_cursor img[alt="star shine"] {
+        position: absolute;
+        left: 0;
+        opacity: 0%;
+    }
+    .stern_cursor:hover img[alt="star shine"] {
+        opacity: 100%;
+    }

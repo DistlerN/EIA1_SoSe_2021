@@ -1,0 +1,56 @@
+body {
+    background-image: url("images_Karte1/bg.png");
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    margin: auto;
+}
+
+header {
+    background: url("images_Karte1/wrapperbg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    position: fixed;
+    margin-top: 300px;
+    height: 400px; 
+    width: 800px; 
+    }
+
+.title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    text-align: left;
+    position: absolute;
+    top: 15%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    color:whitesmoke;
+
+}
+
+.Grusstext {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-align: left;
+    margin:auto;
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+}
+.pinguinBild { 
+    border-radius: 10px;
+    margin: auto;
+    position: fixed;
+    left: 60%;
+    top: 60%;
+}
+.strauchBild {
+    border-radius: 10px;
+    margin: auto;
+    position: fixed;
+    right: 60%;
+    bottom: 50%;
+
+}
